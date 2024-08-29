@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6xp21ejruws6"]
+
+[ext_resource type="PackedScene" uid="uid://df0auusgprnw0" path="res://scenes/raider.tscn" id="1_dgvbf"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Raider" parent="." instance=ExtResource("1_dgvbf")]

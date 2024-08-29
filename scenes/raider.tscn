@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://df0auusgprnw0"]
+
+[ext_resource type="Texture2D" uid="uid://bcibb4s5g7i34" path="res://assets/indiana-jones.png" id="1_3d804"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1e1f"]
+atlas = ExtResource("1_3d804")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8sp5s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1e1f")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Raider" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_8sp5s")
