@@ -22,6 +22,7 @@ animations = [{
 size = Vector2(12, 17)
 
 [node name="Raider" type="CharacterBody2D"]
+position = Vector2(0, -12)
 script = ExtResource("1_1fl4h")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
