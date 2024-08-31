@@ -5,3 +5,7 @@
 [node name="Game" type="Node2D"]
 
 [node name="Raider" parent="." instance=ExtResource("1_dgvbf")]
+
+[node name="Map" type="Node2D" parent="."]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="Map"]
